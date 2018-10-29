@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Alumno.cs" />
+    <Compile Include="FormMar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMar.Designer.cs">
+      <DependentUpon>FormMar.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormPelicula.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +70,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormAlumno.resx">
       <DependentUpon>FormAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMar.resx">
+      <DependentUpon>FormMar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPelicula.resx">
       <DependentUpon>FormPelicula.cs</DependentUpon>
