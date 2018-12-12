@@ -23,6 +23,7 @@ namespace WindowsFormsApplicationClases
         public int id { get; set; }
         public string nombre { get; set; }
         public DateTime fechaNac { get; set; }
+        public int MyProperty { get; set; }
 
         public int edad()
         {
